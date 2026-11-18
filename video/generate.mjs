@@ -40,7 +40,7 @@ const LEAD = 0.35, GAP = 0.22, TAIL = 0.75, FADE = 0.2, MAX_SECONDS = 178, HIVE_
 // Real footage sits in a rounded "screen" (72% size) so the subtitle band below never covers it.
 const FRAME = { x: 536, y: 200, w: 2768, h: 1556 };
 const baseUrl = (process.env.VIDEO_BASE_URL || 'https://hivemind-qefg.onrender.com').replace(/\/$/, '');
-const repoUrl = process.env.VIDEO_REPO_URL || 'https://github.com/Blop77/Codex';
+const repoUrl = process.env.VIDEO_REPO_URL || 'https://github.com/faazkhn/hivemind';
 const ttsModel = process.env.OPENAI_TTS_MODEL || 'gpt-4o-mini-tts';
 const voice = process.env.VIDEO_VOICE || 'nova';
 const voiceInstructions = process.env.VIDEO_VOICE_INSTRUCTIONS || 'Upbeat, energetic young female narrator for a tech launch video. Brisk, lively pace, bright and confident, smiling voice. Keep pauses short and the energy high.';
